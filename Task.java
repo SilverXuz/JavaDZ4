@@ -7,7 +7,7 @@ public class Task {
     }
 
     static int F(int a, int b) {
-        int count = 1;
+        int count = 1;  // Число путей на старте
         Map<Integer,Integer> array = new HashMap<Integer,Integer>();    // Словарь, который хранит значения "а" и число путей "count"
         int k1 = 1;     // Коэф сложения
         int k2 = 2;     // Коэф умножения
